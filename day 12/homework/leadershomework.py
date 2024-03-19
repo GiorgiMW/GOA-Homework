@@ -1,3 +1,4 @@
+#Write an algorithm that prints whether a number entered by the user is positive, negative, or zero.
 user_number = int(input("Enter number here: "))
 
 if user_number > 0:
