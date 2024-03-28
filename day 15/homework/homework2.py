@@ -4,5 +4,4 @@ def arithmetical_operation(lst):
     answer = total_sum / len(lst)
     print("answer is:", int(answer))
 
-my_list = [1,2,3,4,5]
-arithmetical_operation(my_list)
+arithmetical_operation([1,2,3,4,5])
