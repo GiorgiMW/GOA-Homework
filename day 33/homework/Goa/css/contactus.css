@@ -1,0 +1,45 @@
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    color: limegreen;
+    font-size: 50px;
+}
+
+.contact {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: limegreen;
+    transition: 0.8s;
+}
+
+.contact a:hover {
+    transition: 0.8s;
+    font-size: 18px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    transition: 0.8s;
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(45, 158, 45);
+}
+
+header nav a:hover {
+    font-size: 20px;
+    transition: 0.8s;
+} 

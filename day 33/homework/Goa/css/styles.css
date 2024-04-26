@@ -1,0 +1,50 @@
+
+
+body{
+    background: rgb(32,173,58);
+    background: linear-gradient(0deg, rgba(32,173,58,1) 10%, rgba(0,0,0,1) 73%);
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    color: limegreen;
+    font-size: 50px;
+}
+img {
+    border: 3px solid limegreen;
+    margin-left: 20px;
+    border-radius: 60px;
+    width: 250px;
+}
+.quru {
+    display: flex;
+    font-size: 15px;
+    
+}
+
+.quru p {
+    font-size: 17px;
+    color: limegreen;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    transition: 0.8s;
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(45, 158, 45);
+}
+
+header nav a:hover {
+    font-size: 20px;
+    transition: 0.8s;
+} 
