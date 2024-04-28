@@ -1,11 +1,13 @@
 
 
 body{
+    height: 100vh;
     background: rgb(32,173,58);
-    background: linear-gradient(0deg, rgba(32,173,58,1) 10%, rgba(0,0,0,1) 73%);
+    background: linear-gradient(150deg, rgba(32,173,58,1) 10%, rgba(0,0,0,1) 73%);
     background-repeat: no-repeat;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 h1 {
     text-align: center;
     color: limegreen;
@@ -45,6 +47,7 @@ header nav a {
 }
 
 header nav a:hover {
+    color: limegreen;
     font-size: 20px;
     transition: 0.8s;
 } 
