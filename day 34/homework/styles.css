@@ -1,9 +1,12 @@
 
 body {
+<<<<<<< HEAD
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 450;
     font-style: normal;
+=======
+>>>>>>> a093a6312729447085830dfcfe7fb501fb3a06de
     padding: 0;
     margin: 0;
     text-align: center;
@@ -14,6 +17,15 @@ h1 {
     color: rgb(45, 45, 45);
 }
 
+<<<<<<< HEAD
+=======
+.main {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+>>>>>>> a093a6312729447085830dfcfe7fb501fb3a06de
 
 .main {
     
@@ -25,7 +37,11 @@ h1 {
     border: 1px solid rgba(199, 199, 199, 0.648);
     display: inline-block;
     position: relative;
+<<<<<<< HEAD
     height: 70vh;
+=======
+    height: 80vh;
+>>>>>>> a093a6312729447085830dfcfe7fb501fb3a06de
 }
 
 .main span {
@@ -46,6 +62,10 @@ h1 {
 
 .button1 button {
     margin-bottom: 15px;
+<<<<<<< HEAD
+=======
+    font-family: "Outfit", sans-serif;
+>>>>>>> a093a6312729447085830dfcfe7fb501fb3a06de
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
@@ -130,6 +150,10 @@ input {
 .button2 button {
     font-size: 15px;
     margin-bottom: 15px;
+<<<<<<< HEAD
+=======
+    font-family: "Outfit", sans-serif;
+>>>>>>> a093a6312729447085830dfcfe7fb501fb3a06de
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
@@ -146,6 +170,7 @@ input {
     font-weight: 500;
     top: 20px;
     position: relative;
+<<<<<<< HEAD
 }
 
 .login span {
@@ -160,4 +185,6 @@ input {
 .login a {
     color: rgb(0, 0, 144);
     text-decoration: none;
+=======
+>>>>>>> a093a6312729447085830dfcfe7fb501fb3a06de
 }
