@@ -1,0 +1,76 @@
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: limegreen;
+    color: #fff;
+    padding: 10px 10px 5px 10px;
+    text-align: center;
+}
+nav {
+    transition: 0.8s;
+    background-color: limegreen;
+    text-decoration: none;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    transition: 0.8s;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    transition: 0.8s;
+    font-size: 20px;
+}
+section {
+    padding: 20px;
+}
+p {
+    line-height: 1.6;
+}
+h1 {
+    margin: 5px 5px 0px 5px;
+}
+
+.contact {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.contact a {
+    transition: 0.8s;
+    text-decoration: none;
+    color: limegreen;
+}
+
+.contact a:hover {
+    color:  green;
+    transition: 0.8s;
+    font-size: 20px;
+}
+strong {
+    color: limegreen;
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imgcontainer img {
+    border: 3px solid limegreen;
+    border-radius: 25px;
+    margin: 50px;
+}
+
+.service {
+    text-align: center;
+}
