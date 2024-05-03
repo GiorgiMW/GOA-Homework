@@ -20,17 +20,14 @@ img {
     width: 250px;
 }
 .quru {
+    color: limegreen;
+    gap: 20px;
+    align-items: center;
     display: flex;
     font-size: 15px;
     
 }
 
-.quru p {
-    font-size: 17px;
-    color: limegreen;
-    margin-top: 70px;
-    margin-left: 25px;
-}
 
 header {
     margin-bottom: 40px;
