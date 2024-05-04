@@ -1,5 +1,10 @@
 
 body {
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -10,6 +15,7 @@ h1 {
     color: rgb(45, 45, 45);
 }
 
+
 .main {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -18,7 +24,6 @@ h1 {
 }
 
 .main {
-    
     border-radius: 1px;
     top: 15px;
     font-size: 17px;
@@ -27,7 +32,9 @@ h1 {
     border: 1px solid rgba(199, 199, 199, 0.648);
     display: inline-block;
     position: relative;
+    height: 70vh;
     height: 80vh;
+
 }
 
 .main span {
@@ -150,4 +157,18 @@ input {
     font-weight: 500;
     top: 20px;
     position: relative;
+}
+
+.login span {
+    padding: 25px 80px 25px 80px;
+    border-radius: 1px;
+    border: 1px solid rgba(199, 199, 199, 0.648);
+    font-weight: 320;
+    top: 50px;
+    position: relative;
+}
+
+.login a {
+    color: rgb(0, 0, 144);
+    text-decoration: none;
 }
