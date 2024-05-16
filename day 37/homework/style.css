@@ -67,20 +67,36 @@ strong {
 }
 
 .imgcontainer img {
+<<<<<<< HEAD
 
     transition: 1s;
 
+=======
+<<<<<<< HEAD
+    transition: 1s;
+=======
+>>>>>>> 6529f5032644de2e7e34002d6ef670345cfb16f4
+>>>>>>> 34f737e41eadb94b7a3e1c333c4afa3bb7388936
     cursor: pointer;
     border: 1px solid rgb(0, 197, 0);
     border-radius: 25px;
     margin: 50px;
 }
 
+<<<<<<< HEAD
 
 .imgcontainer img:hover {
     transform: scale(1.2);
 }
 
+=======
+<<<<<<< HEAD
+.imgcontainer img:hover {
+    transform: scale(1.2);
+}
+=======
+>>>>>>> 6529f5032644de2e7e34002d6ef670345cfb16f4
+>>>>>>> 34f737e41eadb94b7a3e1c333c4afa3bb7388936
 .service {
     animation-iteration-count: infinite;
     animation-duration: 3s;
