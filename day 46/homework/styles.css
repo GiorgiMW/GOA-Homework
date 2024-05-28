@@ -1,0 +1,58 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    border-bottom: 2px solid rgba(169, 169, 169, 0.237);
+}
+header img {
+    transform: scale(0.9);
+    display: inline-block;
+    vertical-align: middle;
+}
+nav {
+    padding: 5px;
+}
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+
+}
+nav a:hover {
+    color: rgb(29, 29, 29);
+    border-bottom: 1px solid lightgrey;
+}
+ 
+h1 {
+    font-size: 30px;
+    padding-left: 20px;
+
+}
+
+.languages {
+    display: flex;
+    color: rgb(125, 125, 125);
+}
+
+ol li {
+    cursor: pointer;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+ol {
+    border-radius: 5px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(169, 169, 169, 0.415);
+    padding-right: 40px;
+    border-right: 2px solid rgba(169, 169, 169, 0.415);
+}
+ol li:hover {
+    transform: scale(1.05);
+    color: black;
+}

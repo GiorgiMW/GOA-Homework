@@ -1,0 +1,106 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00ff6a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main ul li a {
+    color: #3e8e41;
+    text-decoration: none;
+}
+
+main {
+    height: 750px;
+    padding: 20px;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ff6a;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+form input, textarea {
+    outline-color: #00ff6a;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    width: 8vh;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images img {
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #00ff6a;
+}
+
+.Ninja {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    object-fit: fill;
+}
