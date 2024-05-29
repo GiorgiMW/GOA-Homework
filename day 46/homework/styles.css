@@ -35,12 +35,15 @@ h1 {
 }
 
 .languages {
-
     width: 20vh;
     display: flex;
     color: rgb(125, 125, 125);
 }
-
+.languages a {
+    color: rgb(125, 125, 125);
+    text-decoration: none;
+    transition: 0.2s;
+}
 ol li {
     cursor: pointer;
     font-size: 17px;
@@ -55,6 +58,11 @@ ol {
     padding-right: 40px;
     border-right: 2px solid rgba(169, 169, 169, 0.415);
 }
+
+.languages a:hover {
+    color: black;
+}
+
 ol li:hover {
     transform: scale(1.05);
     color: black;
@@ -65,4 +73,38 @@ ol li:hover {
     display: flex;
     position: relative;
     left: 40vh;
+}
+
+.text1 {
+    display: flex;
+    width: 90vh;
+    flex-direction: row-reverse;
+    font-weight: 200;
+    color: #79818c;
+}
+
+.Develop {
+    background-color: #f0fdf4;
+    opacity: 0.9;
+    padding: 5px;
+    border-radius: 5px;
+    color: #22c55e;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.h2 {
+    bottom: 20px;
+    position: relative;
+    left: 130px;
+    justify-content: center;
+    display: flex;
+    font-size: 22px;
+    color: #001450;
+}
+.post {
+    display: flex;
+    justify-content: center;
 }
