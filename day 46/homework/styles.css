@@ -44,7 +44,10 @@ h1 {
     text-decoration: none;
     transition: 0.2s;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> eb77a38e930d93b585e263031473491ea7ec17b0
 ol li {
     cursor: pointer;
     font-size: 17px;
@@ -64,6 +67,14 @@ ol {
     color: black;
 }
 
+<<<<<<< HEAD
+=======
+ol li:hover {
+    transform: scale(1.05);
+    color: black;
+}
+
+>>>>>>> eb77a38e930d93b585e263031473491ea7ec17b0
 .img1 {
     border-radius: 20px;
     display: flex;
@@ -71,11 +82,14 @@ ol {
     left: 40vh;
 }
 
+<<<<<<< HEAD
 ol li:hover {
     transform: scale(1.05);
     color: black;
 }
 
+=======
+>>>>>>> eb77a38e930d93b585e263031473491ea7ec17b0
 .text1 {
     display: flex;
     width: 90vh;
